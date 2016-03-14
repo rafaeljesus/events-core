@@ -1,12 +1,11 @@
 {
-  "name": "@rafaeljesus/events-db",
+  "name": "@rafaeljesus/events-model",
   "version": "1.0.0",
   "description": "Events model shared by events api and worker",
   "main": "build/index.js",
   "scripts": {
     "start": "babel-node index.js",
-    "clean": "rm -rf build && mkdir build",
-    "build": "npm run clean && babel --presets es2015,stage-2 --plugins transform-runtime --ignore node_modules,test . -d build",
+    "build": "rm -rf build && mkdir build && babel --presets es2015,stage-2 --plugins transform-runtime --ignore node_modules,test . -d build",
     "prepublish": "npm run build",
     "test": " npm run lint && NODE_ENV=test ava",
     "lint": "standard --verbose | snazzy"
