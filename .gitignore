@@ -1,9 +1,3 @@
 node_modules/
+build/
 npm-debug.log
-newrelic_agent.log
-coverage/
-.idea
-.vagrant/
-tags
-**/*.swp
-newrelic_agent.log
