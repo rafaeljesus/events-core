@@ -1,3 +1,5 @@
-require('./lib/db')
+import './lib/db'
 
-module.exports = require('./events')
+import Event from './lib/model'
+
+export default Event
