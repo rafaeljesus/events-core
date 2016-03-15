@@ -12,7 +12,7 @@
 
 ## Installation
 ```bash
-npm install --save @rafaeljesus/events-model
+npm install @rafaeljesus/events-model --save
 ```
 
 ## Contributing
