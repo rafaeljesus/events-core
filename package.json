@@ -1,6 +1,6 @@
 {
   "name": "@rafaeljesus/events-model",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Events model shared by events api and worker",
   "main": "lib/index.js",
   "scripts": {

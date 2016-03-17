@@ -1,5 +1,5 @@
-import './lib/db'
+import './db'
 
-import Event from './lib/model'
+import Event from './model'
 
 export default Event
