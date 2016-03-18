@@ -1,7 +1,7 @@
 {
-  "name": "@rafaeljesus/events-model",
-  "version": "1.0.6",
-  "description": "Events model shared by events api and worker",
+  "name": "@rafaeljesus/events-core",
+  "version": "1.0.7",
+  "description": "Events core model and services shared by events api and worker",
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf lib/* && babel src --presets es2015,stage-2 --plugins transform-runtime --ignore test -d lib",
@@ -11,6 +11,9 @@
   },
   "author": "Rafael Jesus <rafaelljesus86@gmail.com> (http://github.com/rafaeljesus)",
   "license": "MIT",
+  "bin": {
+    "babel": "./node_modules/babel-cli/bin/babel"
+  },
   "pre-commit": [
     "test"
   ],
