@@ -9,7 +9,7 @@ const assign = Object.assign
 
 let data = fixture()
 
-test.beforeEach(async () => {
+test.beforeEach(async function () {
   await [
     Event.create(assign(data, {status: 'order_created'})),
     Event.create(assign(data, {status: 'order_updated'})),
