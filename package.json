@@ -1,6 +1,6 @@
 {
   "name": "@rafaeljesus/events-core",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Events core model and services shared by events api and worker",
   "main": "lib/index.js",
   "scripts": {
