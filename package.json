@@ -11,6 +11,10 @@
   },
   "author": "Rafael Jesus <rafaelljesus86@gmail.com> (http://github.com/rafaeljesus)",
   "license": "MIT",
+  "repository" :{
+    "type" : "git",
+    "url" : "http://github.com/rafaeljesus/events-core.git"
+  },
   "bin": {
     "babel": "./node_modules/babel-cli/bin/babel"
   },
