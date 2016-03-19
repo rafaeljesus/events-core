@@ -1,6 +1,6 @@
 {
   "name": "@rafaeljesus/events-core",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Events core model and services shared by events api and worker",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url" : "http://github.com/rafaeljesus/events-core.git"
   },
   "bin": {
-    "babel": "./node_modules/babel-cli/bin/babel"
+    "babel": "./node_modules/.bin/babel"
   },
   "pre-commit": [
     "test"
