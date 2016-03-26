@@ -12,7 +12,7 @@ const Event = Schema({
   createdAt: Date
 })
 
-Event.statics.search = async function (options = {}) {
+Event.statics.search = async (options = {}) => {
   const PAGE_SIZE_LIMIT = 100
   let page = options.page || 0
   let pageSize = options.pageSize || 10
