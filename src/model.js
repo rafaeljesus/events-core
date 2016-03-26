@@ -28,11 +28,11 @@ Event.statics.search = async function (options = {}) {
   .skip(page * pageSize)
   .exec()
 
-  const res = await Promise.all([this.count(q), search])
+  const [total, result] = await Promise.all([this.count(q), search])
 
   return {
-    total: res[0],
-    result: res[1]
+    total,
+    result
   }
 }
 
